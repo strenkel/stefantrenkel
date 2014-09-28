@@ -1,0 +1,19 @@
+a {color: black; }
+h1 {font-size: 12pt; word-spacing: 1pt;}
+
+#myframe {  margin-top: 50pt; margin-left: 17%; margin-right: 17%; background-color: #E0E0E0; }
+
+#mytext { text-align: left; vertical-align: top; font-size: 9pt; line-height: 16pt;         
+          padding-left: 20%; padding-right: 20%; padding-top: 60pt; height: 400px; width: 10%;
+          font-family: sans-serif; word-spacing: 1pt}
+
+#mytitle { text-align: center; font-size: xx-small; 
+           margin-top: 3%; margin-left:17%; margin-right:17%;
+           padding: 1%;
+           font-family: sans-serif; background-color: #FFFFFF; }
+           
+#unterschrift { text-align: right;font-style:italic}        
+
+#ohne { margin-right: 80pt; }
+
+#mit { margin-left: 80pt; }

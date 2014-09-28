@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+a {
+  color: black;
+}
+
+.content {
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+}
+
+.small-right {
+  font-size: 11px;
+  line-height: 20px;
+  display: block;
+  text-align: right;
+}
+
+.separator {
+  height: 50px;
+}
+
+/* index */
+
+#index .body a {
+  text-decoration: none;
+}
+
+#index .body {
+  line-height: 36px;
+}
+
+/* satz */
+
+#satz .content {
+  width: 200px;
+}
+
+#satz .body {
+  line-height: 23px;
+}

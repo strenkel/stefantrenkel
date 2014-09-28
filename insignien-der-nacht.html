@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Insignien der Nacht</title>
+  <meta name="description" content="Insignien der Nacht">
+  <meta name="keywords" content="Literatur">
+  <meta name="author" content="Stefan Trenkel">
+
+<link rel="stylesheet" type="text/css" href="css/insignien-der-nacht.css">
+<script type="text/javascript">
+
+	ptrTxt = 1;  /* Laufender Zeiger auf txt[] */
+	ptrMax = 66;  /* Feldgroesse von txt[]. Haendisch pflegen! */
+
+	var txt = new Array();
+	txt[1] = "Fly, butter fly.";
+	txt[2] = "Dem e war es einfach zu eng. Es blähte sich auf.";
+	txt[3] = "Gestern sagte sie heute   ...   ach heute.";
+	txt[4] = "Verhüte Dich!";
+	txt[5] = "Schattenlos erstarrte der Tag in gleißendem Licht.";
+	txt[6] = "Da war er mit seinem Konjunktiv am Ende.";
+	txt[7] = "Vor lauter Freude wurde sie schwanger.";
+	txt[8] = "Manchmal öffnete er das Fenster und schaute hinaus.";
+	txt[9] = "Sie zuckte zusammen als plötzlich ein Satz auf dem Papier stand.";
+	txt[10] = "Jede Nacht gab er dem Mond einen neuen Namen.";
+	txt[11] = "Das Ohr an den Basslautsprecher gelehnt konnte sie endlich einschlafen.";
+	txt[12] = "Der Text liebt mich nicht.";
+	txt[13] = "Glück, Glack, Gluck.";
+	txt[14] = "Am Fuß des großen Berges fing der Frosch zu quaken an.";
+	txt[15] = "Die Störche fliegen höher, wenn sich Nebel auf die Felder legt.";
+	txt[16] = "Da schau, die Vögel bringen den Fischen das Fliegen bei.";
+	txt[17] = "Hinter den Bergen, auf der anderen Seite des Flusses, gibt es ein Land, von dem selbst die Elefanten sagen, es sei zu groß für sie.";
+	txt[18] = "Auf Beschluss des großen Sternenrates wurde die Erde zum ewigen Kreisen um die Sonne verurteilt.";
+	txt[19] = "Hiermit verbanne ich dich, den Rest deines Lebens auf der Erde zu verbringen.";
+	txt[20] = "Warum sitzt keine Frau drüben im Sessel (und ihr langes Haar wellt sich bis zu meinen Füßen)?";
+	txt[21] = "Die Frau am Faxgerät war irritierend schön.";
+	txt[22] = "Schreibe auch du von den Frauen und den Formen ihrer Körper.";
+	txt[23] = "Es lauert doch an jeder Straßenecke, auf jedem Platz, in jedem Restaurant irgendeine Frau.";
+	txt[24] = "Nichts war, als diese zwei Augen.";
+	txt[25] = "Dann sanken sie zusammen in eine Art von Seligkeit.";
+	txt[26] = "Da war wieder einer, der versuchte, sich dem ganzen Weltenlauf entgegenzusetzen.";
+	txt[27] = "Er gehörte auch zu den Menschen, die darauf warteten, dass ihr Schatten ihnen den Weg weise.";
+	txt[28] = "Er war froh, heute nicht Geburtstag zu haben.";
+	txt[29] = "Er hatte keine Kraft mehr, aus dem Auto zu steigen und dabei nicht das Geichgewicht zu verlieren.";
+	txt[30] = "Er wollte ein Taxi bestellen; es kamen hunderte und überfuhren ihn.";
+	txt[31] = "Heimlich fing er zu denken an.";
+	txt[32] = "Da fiel ihm ein, dass er noch zum Schuster musste.";
+	txt[33] = "Du, komm aus dem Sandkasten und gehe an die Kletterwand.";
+	txt[34] = "Der Kelch ging an mir vorüber, und ich hätte so gerne getrunken.";
+	txt[35] = "Qualvoll wurde der Künstler im Museum hingerichtet.";
+	txt[36] = "Es ist gar nicht so leicht, immer an der selben Stelle nicht zu stolpern.";
+	txt[37] = "Wenn doch das Kondom nicht wäre.";
+	txt[38] = "... menschlich gesehen (eine wohl veraltete Redensweise) ...";
+	txt[39] = "Es ist eine Frage der Hygiene, kein Fernsehn, kein Radio, keine Zeitung zu sehen, hören, lesen.";
+	txt[40] = "Herr Goebel stellt entsetzt seine Flasche Bier auf den Couchtisch, als er von der Ermordung des Abgeordneten Münker erfuhr.";
+	txt[41] = "Wer möchte die Pforte zur Einsamkeit schon allein durchschreiten.";
+	txt[42] = "Das Paradies ist am anderen Ende des Parks.";
+	txt[43] = "Die Sonne kann nur tagsüber scheinen, nachts scheint sie nie.";
+	txt[44] = "Tagsüber trommelt es, nachts laufen die Gespenster herum.";
+	txt[45] = "Die Spur, die zum Täter führen sollte, fand man im Magen eines Rottweilers.";
+	txt[46] = "Nervös wie er war, ließ er klirrend das Messer auf den steinernen Fußboden fallen.";
+	txt[47] = "Science Fiktion I: wpa, 13.7.2065. Das HCB teilt mit, dass ab sofort die Bioware zur Neutralisation des Virus 'tongue' auf ihren Servern zur Verfügung steht. Personen, die mit dem Virus 'tongue' infiziert sind, müssen beim Sprechen die Zunge herausstrecken."
+	txt[48] = "Science Fiktion II: Sie in Stockholm, er in Madrid, gingen zur verabredeten Zeit ins Netz. Innigst vereint verbrachten sie eine wundervoll Nacht."
+	txt[49] = "Trinken: Flasche nehmen, Flasche aufschrauben, Flasche ansetzen, Flasche heben, Mund öffnen, saugen, schlucken, saugen, schlucken, Mund schließen, Flasche senken, Flasche absetzen, Flasche zuschrauben, Flasche abstellen."
+	txt[50] = "Jeden Tag, so zwischen eins und zwei, spürte er eine ungeheure Kraft in sich."
+	txt[51] = "Was versteht der Mensch schon von der Kunst?"
+	txt[52] = "Grüner Baum mit roten Punkten drin."
+	txt[53] = "Wie hält es der Maler mit der Tiefenschärfe?"
+	txt[54] = "Wörter sind wie Bienen in der Luft: manchmal setzen sie sich auf eine Blume."
+	txt[55] = "Die Nacht ist hell und glühend heiß."
+	txt[56] = "Ist die Luft rein? Ist es still genug? Kannst du dich hören? Nackt, ohne jede Bewegung, ohne jeden Gedanken, stehe ich da."
+	txt[57] = "Neidisch auf seinen Helden ließ der Schriftsteller ihn kurzerhand an einem Herzversagen sterben."
+	txt[58] = "Der Körper geht durchs Schlüsselloch."
+	txt[59] = "Der Text war noch da, die Bedeutung kauerte unten in der Ecke."
+	txt[60] = "Der Stift fällt aufs Blatt."
+	txt[61] = "Einer jener Gedanken, die ich letzten August hatte."
+	txt[62] = "Käfer auf dem Weg. Käfer auf dem Rücken. Käfer du."
+	txt[63] = "Muhseum für moderne Kuhnst."
+	txt[64] = "Auf die Plätze fertig lo                ... s"
+	txt[65] = "F  ucht        ...l"
+	txt[66] = "Schon schön.";
+
+/* Schreibt den nächsten Text in "mytext" und passt "ptrTxt" an.
+i gibt die Anzahl der Schritte an, die vorgesprungen werden.
+i ist eine beliebige ganze Zahl. Werden die Grenzen 1 bzw. ptrMax überschritten
+wird der Zeiger auf ptrMax bzw. 1 gesetzt.
+Bsp.: i=1 ein Schritt vor; i=-1 ein Schritt zurueck. */
+
+	function nextTxt(i) {
+		nextPtr(i);
+		var rd_Start = 0;
+
+		var rd_Laenge = document.getElementById("mytext").firstChild.nodeValue.length;
+		document.getElementById("mytext").firstChild.replaceData(rd_Start, rd_Laenge, txt[ptrTxt]);
+	}
+
+/* Erhöht den laufenden Zeiger "ptrTxt" um i. i ist eine beliebige ganze Zahl.
+Wird ptrTxt auf unter 1 dekrementiert, wird ptrTxt auf maxPtr gesetzt.
+Wird ptrTxt über ptrMax inkrementiert, wird ptrTxt auf 1 gesetzt. */
+
+	function nextPtr(i) {
+		ptrTxt += i;
+		if (ptrTxt > ptrMax) ptrTxt = 1;
+		if (ptrTxt < 1) ptrTxt = ptrMax;
+	}
+
+</script>
+</head>
+
+<body>
+<table id="myframe">
+	<td id="mytext">leer</td>
+</table>
+<div id="mytitle">
+	<a id="zurueck" href=javascript:nextTxt(-1)>&lt&lt</a>
+	<a id="index" href="index.html">Insignien der Nacht</a>
+	<a id="vor" href=javascript:nextTxt(1)>&gt&gt</a>
+</div>
+</body>
+
+<!-- Ersten Text in das Feld "mytext" schreiben. -->
+<script type="text/javascript">
+nextTxt(0);
+</script>
+
+</html>

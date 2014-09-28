@@ -10,6 +10,8 @@ body {
 
 a {
   color: black;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .content {
@@ -22,6 +24,11 @@ a {
   font-weight: normal;
   font-size: 30px;
   margin: 0;
+  line-height: 40px;
+}
+
+.body {
+  margin-top: 60px;
 }
 
 .small-right {
@@ -29,10 +36,6 @@ a {
   line-height: 20px;
   display: block;
   text-align: right;
-}
-
-.separator {
-  height: 50px;
 }
 
 /* index */

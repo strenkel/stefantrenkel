@@ -1,11 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: sans-serif;
   font-size: 15px;
   line-height: 26px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 110px;
-  margin-bottom: 110px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 a {
@@ -16,8 +19,25 @@ a {
 
 .content {
   width: 630px;
+  margin-top: 110px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.center-content {
+  font-size: 40px;
+  line-height: 70px;
+  display: table;
+  margin: 0 auto;
+  width: 800px;
+  height: 100%;
+}
+
+.center-body {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .title {
@@ -56,4 +76,14 @@ a {
 
 #satz .body {
   line-height: 23px;
+}
+
+/* insignien */
+#insignien-der-nacht .center-body > div {
+  display: none;
+}
+
+#insignien-der-nacht {
+  background-color: black;
+  color: white;
 }

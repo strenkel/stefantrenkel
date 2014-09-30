@@ -1,127 +1,89 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-<title>Insignien der Nacht</title>
-  <meta name="description" content="Insignien der Nacht">
-  <meta name="keywords" content="Literatur">
-  <meta name="author" content="Stefan Trenkel">
+  <head>
+    <title>Insignien der Nacht</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Insignien der Nacht">
+    <meta name="keywords" content="Literatur">
+    <meta name="author" content="Stefan Trenkel">
+    <meta name="date" content="1990-2000">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
 
-<link rel="stylesheet" type="text/css" href="css/insignien-der-nacht.css">
-<script type="text/javascript">
+  <body id="insignien-der-nacht" onclick="next();">
 
-	ptrTxt = 1;  /* Laufender Zeiger auf txt[] */
-	ptrMax = 66;  /* Feldgroesse von txt[]. Haendisch pflegen! */
+    <div class="center-content">
+      <div id="insignien-root" class="center-body">
+        <div>Fly, butter fly.</div>
+        <div>Dem e war es einfach zu eng. Es bl√§hte sich auf.</div>
+        <div>Gestern sagte sie heute&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;ach heute.</div>
+        <div>Verh√ºte Dich!</div>
+        <div>Schattenlos erstarrte der Tag in glei√üendem Licht.</div>
+        <div>Da war er mit seinem Konjunktiv am Ende.</div>
+        <div>Vor lauter Freude wurde sie schwanger.</div>
+        <div>Manchmal √∂ffnete er das Fenster und schaute hinaus.</div>
+        <div>Er zuckte zusammen als pl√∂tzlich ein Satz auf dem Papier stand.</div>
+        <div>Jede Nacht gab er dem Mond einen neuen Namen.</div>
+        <div>Das Ohr an den Basslautsprecher gelehnt konnte sie endlich einschlafen.</div>
+        <div>Der Text liebt mich nicht.</div>
+        <div>Gl√ºck, Glack, Gluck.</div>
+        <div>Am Fu√ü des gro√üen Berges fing der Frosch zu quaken an.</div>
+        <div>Die St√∂rche fliegen h√∂her, wenn sich Nebel auf die Felder legt.</div>
+        <div>Da schau, die V√∂gel bringen den Fischen das Fliegen bei.</div>
+        <div>Hinter den Bergen, auf der anderen Seite des Flusses, gibt es ein Land, von dem selbst die Elefanten sagen, es sei zu gro√ü f√ºr sie.</div>
+        <div>Auf Beschluss des gro√üen Sternenrates wurde die Erde zum ewigen Kreisen um die Sonne verurteilt.</div>
+        <div>Hiermit verbanne ich dich, den Rest deines Lebens auf der Erde zu verbringen.</div>
+        <div>Warum sitzt keine Frau dr√ºben im Sessel (und ihr langes Haar wellt sich bis zu meinen F√º√üen)?</div>
+        <div>Die Frau am Faxger√§t war irritierend sch√∂n.</div>
+        <div>Schreibe auch du von den Frauen und den Formen ihrer K√∂rper.</div>
+        <div>Es lauert doch an jeder Stra√üenecke, auf jedem Platz, in jedem Restaurant irgendeine Frau.</div>
+        <div>Nichts war, als diese zwei Augen.</div>
+        <div>Dann sanken sie zusammen in eine Art von Seligkeit.</div>
+        <div>Da war wieder einer, der versuchte, sich dem ganzen Weltenlauf entgegenzusetzen.</div>
+        <div>Er geh√∂rte auch zu den Menschen, die darauf warteten, dass ihr Schatten ihnen den Weg weise.</div>
+        <div>Er war froh, heute nicht Geburtstag zu haben.</div>
+        <div>Er hatte keine Kraft mehr, aus dem Auto zu steigen und dabei nicht das Geichgewicht zu verlieren.</div>
+        <div>Er wollte ein Taxi bestellen; es kamen hunderte und √ºberfuhren ihn.</div>
+        <div>Heimlich fing er zu denken an.</div>
+        <div>Da fiel ihm ein, dass er noch zum Schuster musste.</div>
+        <div>Du, komm aus dem Sandkasten und gehe an die Kletterwand.</div>
+        <div>Der Kelch ging an mir vor√ºber, und ich h√§tte so gerne getrunken.</div>
+        <div>Qualvoll wurde der K√ºnstler im Museum hingerichtet.</div>
+        <div>Es ist gar nicht so leicht, immer an der selben Stelle nicht zu stolpern.</div>
+        <div>... menschlich gesehen (eine wohl veraltete Redensweise) ...</div>
+        <div>Es ist eine Frage der Hygiene, kein Fernsehn, kein Radio, keine Zeitung zu sehen, h√∂ren, lesen.</div>
+        <div>Herr Goebel stellt entsetzt seine Flasche Bier auf den Couchtisch, als er von der Ermordung des Abgeordneten M√ºnker erfuhr.</div>
+        <div>Wer m√∂chte die Pforte zur Einsamkeit schon allein durchschreiten.</div>
+        <div>Die Sonne kann nur tags√ºber scheinen, nachts scheint sie nie.</div>
+        <div>Tags√ºber trommelt es, nachts laufen die Gespenster herum.</div>
+        <div>Die Spur, die zum T√§ter f√ºhren sollte, fand man im Magen eines Rottweilers.</div>
+        <div>Nerv√∂s wie er war, lie√ü er klirrend das Messer auf den steinernen Fu√üboden fallen.</div>
+        <div>Science Fiktion I: wpa, 13.7.2065. Das HCB teilt mit, dass ab sofort die Bioware zur Neutralisation des Virus 'tongue' auf
+          ihren Servern zur Verf√ºgung steht. Personen, die mit dem Virus 'tongue' infiziert sind, m√ºssen beim Sprechen die Zunge herausstrecken.</div>
+        <div>Science Fiktion II: Sie in Stockholm, er in Madrid, gingen zur verabredeten Zeit ins Netz. Innigst vereint verbrachten sie eine wundervolle Nacht.</div>
+        <div>Trinken: Flasche nehmen, Flasche aufschrauben, Flasche ansetzen, Flasche heben, Mund √∂ffnen, saugen, schlucken, saugen, schlucken,
+          Mund schlie√üen, Flasche senken, Flasche absetzen, Flasche zuschrauben, Flasche abstellen.</div>
+        <div>Jeden Tag, so zwischen eins und zwei, sp√ºrte er eine ungeheure Kraft in sich.</div>
+        <div>Was versteht der Mensch schon von der Kunst?</div>
+        <div>Gr√ºner Baum mit roten Punkten drin.</div>
+        <div>Wie h√§lt es der Maler mit der Tiefensch√§rfe?</div>
+        <div>W√∂rter sind wie Bienen in der Luft: manchmal setzen sie sich auf eine Blume.</div>
+        <div>Die Nacht ist hell und gl√ºhend hei√ü.</div>
+        <div>Ist die Luft rein? Ist es still genug? Kannst du dich h√∂ren? Nackt, ohne jede Bewegung, ohne jeden Gedanken, stehe ich da.</div>
+        <div>Neidisch auf seinen Helden lie√ü der Schriftsteller ihn kurzerhand an einem Herzversagen sterben.</div>
+        <div>Der K√∂rper geht durchs Schl√ºsselloch.</div>
+        <div>Der Text war noch da, die Bedeutung kauerte unten in der Ecke.</div>
+        <div>Der Stift f√§llt aufs Blatt.</div>
+        <div>Einer jener Gedanken, die ich letzten August hatte.</div>
+        <div>K√§fer auf dem Weg. K√§fer auf dem R√ºcken. K√§fer du.</div>
+        <div>Muhseum f√ºr moderne Kuhnst.</div>
+        <div>Auf die Pl√§tze fertig lo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... s</div>
+        <div>F  ucht&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...l</div>
+        <div>Schon sch√∂n.</div>
+      </div>
+    </div>
 
-	var txt = new Array();
-	txt[1] = "Fly, butter fly.";
-	txt[2] = "Dem e war es einfach zu eng. Es bl‰hte sich auf.";
-	txt[3] = "Gestern sagte sie heute   ...   ach heute.";
-	txt[4] = "Verh¸te Dich!";
-	txt[5] = "Schattenlos erstarrte der Tag in gleiﬂendem Licht.";
-	txt[6] = "Da war er mit seinem Konjunktiv am Ende.";
-	txt[7] = "Vor lauter Freude wurde sie schwanger.";
-	txt[8] = "Manchmal ˆffnete er das Fenster und schaute hinaus.";
-	txt[9] = "Sie zuckte zusammen als plˆtzlich ein Satz auf dem Papier stand.";
-	txt[10] = "Jede Nacht gab er dem Mond einen neuen Namen.";
-	txt[11] = "Das Ohr an den Basslautsprecher gelehnt konnte sie endlich einschlafen.";
-	txt[12] = "Der Text liebt mich nicht.";
-	txt[13] = "Gl¸ck, Glack, Gluck.";
-	txt[14] = "Am Fuﬂ des groﬂen Berges fing der Frosch zu quaken an.";
-	txt[15] = "Die Stˆrche fliegen hˆher, wenn sich Nebel auf die Felder legt.";
-	txt[16] = "Da schau, die Vˆgel bringen den Fischen das Fliegen bei.";
-	txt[17] = "Hinter den Bergen, auf der anderen Seite des Flusses, gibt es ein Land, von dem selbst die Elefanten sagen, es sei zu groﬂ f¸r sie.";
-	txt[18] = "Auf Beschluss des groﬂen Sternenrates wurde die Erde zum ewigen Kreisen um die Sonne verurteilt.";
-	txt[19] = "Hiermit verbanne ich dich, den Rest deines Lebens auf der Erde zu verbringen.";
-	txt[20] = "Warum sitzt keine Frau dr¸ben im Sessel (und ihr langes Haar wellt sich bis zu meinen F¸ﬂen)?";
-	txt[21] = "Die Frau am Faxger‰t war irritierend schˆn.";
-	txt[22] = "Schreibe auch du von den Frauen und den Formen ihrer Kˆrper.";
-	txt[23] = "Es lauert doch an jeder Straﬂenecke, auf jedem Platz, in jedem Restaurant irgendeine Frau.";
-	txt[24] = "Nichts war, als diese zwei Augen.";
-	txt[25] = "Dann sanken sie zusammen in eine Art von Seligkeit.";
-	txt[26] = "Da war wieder einer, der versuchte, sich dem ganzen Weltenlauf entgegenzusetzen.";
-	txt[27] = "Er gehˆrte auch zu den Menschen, die darauf warteten, dass ihr Schatten ihnen den Weg weise.";
-	txt[28] = "Er war froh, heute nicht Geburtstag zu haben.";
-	txt[29] = "Er hatte keine Kraft mehr, aus dem Auto zu steigen und dabei nicht das Geichgewicht zu verlieren.";
-	txt[30] = "Er wollte ein Taxi bestellen; es kamen hunderte und ¸berfuhren ihn.";
-	txt[31] = "Heimlich fing er zu denken an.";
-	txt[32] = "Da fiel ihm ein, dass er noch zum Schuster musste.";
-	txt[33] = "Du, komm aus dem Sandkasten und gehe an die Kletterwand.";
-	txt[34] = "Der Kelch ging an mir vor¸ber, und ich h‰tte so gerne getrunken.";
-	txt[35] = "Qualvoll wurde der K¸nstler im Museum hingerichtet.";
-	txt[36] = "Es ist gar nicht so leicht, immer an der selben Stelle nicht zu stolpern.";
-	txt[37] = "Wenn doch das Kondom nicht w‰re.";
-	txt[38] = "... menschlich gesehen (eine wohl veraltete Redensweise) ...";
-	txt[39] = "Es ist eine Frage der Hygiene, kein Fernsehn, kein Radio, keine Zeitung zu sehen, hˆren, lesen.";
-	txt[40] = "Herr Goebel stellt entsetzt seine Flasche Bier auf den Couchtisch, als er von der Ermordung des Abgeordneten M¸nker erfuhr.";
-	txt[41] = "Wer mˆchte die Pforte zur Einsamkeit schon allein durchschreiten.";
-	txt[42] = "Das Paradies ist am anderen Ende des Parks.";
-	txt[43] = "Die Sonne kann nur tags¸ber scheinen, nachts scheint sie nie.";
-	txt[44] = "Tags¸ber trommelt es, nachts laufen die Gespenster herum.";
-	txt[45] = "Die Spur, die zum T‰ter f¸hren sollte, fand man im Magen eines Rottweilers.";
-	txt[46] = "Nervˆs wie er war, lieﬂ er klirrend das Messer auf den steinernen Fuﬂboden fallen.";
-	txt[47] = "Science Fiktion I: wpa, 13.7.2065. Das HCB teilt mit, dass ab sofort die Bioware zur Neutralisation des Virus 'tongue' auf ihren Servern zur Verf¸gung steht. Personen, die mit dem Virus 'tongue' infiziert sind, m¸ssen beim Sprechen die Zunge herausstrecken."
-	txt[48] = "Science Fiktion II: Sie in Stockholm, er in Madrid, gingen zur verabredeten Zeit ins Netz. Innigst vereint verbrachten sie eine wundervoll Nacht."
-	txt[49] = "Trinken: Flasche nehmen, Flasche aufschrauben, Flasche ansetzen, Flasche heben, Mund ˆffnen, saugen, schlucken, saugen, schlucken, Mund schlieﬂen, Flasche senken, Flasche absetzen, Flasche zuschrauben, Flasche abstellen."
-	txt[50] = "Jeden Tag, so zwischen eins und zwei, sp¸rte er eine ungeheure Kraft in sich."
-	txt[51] = "Was versteht der Mensch schon von der Kunst?"
-	txt[52] = "Gr¸ner Baum mit roten Punkten drin."
-	txt[53] = "Wie h‰lt es der Maler mit der Tiefensch‰rfe?"
-	txt[54] = "Wˆrter sind wie Bienen in der Luft: manchmal setzen sie sich auf eine Blume."
-	txt[55] = "Die Nacht ist hell und gl¸hend heiﬂ."
-	txt[56] = "Ist die Luft rein? Ist es still genug? Kannst du dich hˆren? Nackt, ohne jede Bewegung, ohne jeden Gedanken, stehe ich da."
-	txt[57] = "Neidisch auf seinen Helden lieﬂ der Schriftsteller ihn kurzerhand an einem Herzversagen sterben."
-	txt[58] = "Der Kˆrper geht durchs Schl¸sselloch."
-	txt[59] = "Der Text war noch da, die Bedeutung kauerte unten in der Ecke."
-	txt[60] = "Der Stift f‰llt aufs Blatt."
-	txt[61] = "Einer jener Gedanken, die ich letzten August hatte."
-	txt[62] = "K‰fer auf dem Weg. K‰fer auf dem R¸cken. K‰fer du."
-	txt[63] = "Muhseum f¸r moderne Kuhnst."
-	txt[64] = "Auf die Pl‰tze fertig lo                ... s"
-	txt[65] = "F  ucht        ...l"
-	txt[66] = "Schon schˆn.";
-
-/* Schreibt den n‰chsten Text in "mytext" und passt "ptrTxt" an.
-i gibt die Anzahl der Schritte an, die vorgesprungen werden.
-i ist eine beliebige ganze Zahl. Werden die Grenzen 1 bzw. ptrMax ¸berschritten
-wird der Zeiger auf ptrMax bzw. 1 gesetzt.
-Bsp.: i=1 ein Schritt vor; i=-1 ein Schritt zurueck. */
-
-	function nextTxt(i) {
-		nextPtr(i);
-		var rd_Start = 0;
-
-		var rd_Laenge = document.getElementById("mytext").firstChild.nodeValue.length;
-		document.getElementById("mytext").firstChild.replaceData(rd_Start, rd_Laenge, txt[ptrTxt]);
-	}
-
-/* Erhˆht den laufenden Zeiger "ptrTxt" um i. i ist eine beliebige ganze Zahl.
-Wird ptrTxt auf unter 1 dekrementiert, wird ptrTxt auf maxPtr gesetzt.
-Wird ptrTxt ¸ber ptrMax inkrementiert, wird ptrTxt auf 1 gesetzt. */
-
-	function nextPtr(i) {
-		ptrTxt += i;
-		if (ptrTxt > ptrMax) ptrTxt = 1;
-		if (ptrTxt < 1) ptrTxt = ptrMax;
-	}
-
-</script>
-</head>
-
-<body>
-<table id="myframe">
-	<td id="mytext">leer</td>
-</table>
-<div id="mytitle">
-	<a id="zurueck" href=javascript:nextTxt(-1)>&lt&lt</a>
-	<a id="index" href="index.html">Insignien der Nacht</a>
-	<a id="vor" href=javascript:nextTxt(1)>&gt&gt</a>
-</div>
-</body>
-
-<!-- Ersten Text in das Feld "mytext" schreiben. -->
-<script type="text/javascript">
-nextTxt(0);
-</script>
-
+  </body>
+  <script src="js/insignien-der-nacht.js" type="text/javascript"></script>
 </html>

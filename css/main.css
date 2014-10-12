@@ -89,7 +89,7 @@ a {
   color: white;
 }
 
-.abstract {
+.abstract, .quote {
   font-size: 0.85em;
 }
 

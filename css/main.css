@@ -102,3 +102,7 @@ a {
 #die-entdeckung-des-anderen .body {
   margin-top: 15px;
 }
+
+#die-entdeckung-des-anderen .content {
+  width: 720px;
+}

@@ -106,3 +106,8 @@ a {
 #die-entdeckung-des-anderen .content {
   width: 720px;
 }
+
+#die-entdeckung-des-anderen .footnotes {
+  font-size: 0.81em;
+  line-height: 1.6em;
+}

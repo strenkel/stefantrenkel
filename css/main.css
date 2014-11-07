@@ -82,6 +82,7 @@ a {
 
 #insignien-der-nacht .center-body > div {
   display: none;
+  cursor: pointer;
 }
 
 #insignien-der-nacht {

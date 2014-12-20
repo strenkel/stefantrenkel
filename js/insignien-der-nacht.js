@@ -23,3 +23,6 @@ function pointToNext() {
     i = 0;
   }
 }
+
+window.onkeydown = next;
+window.onclick = next;

@@ -8,6 +8,8 @@ body {
   font-size: 1em;
   line-height: 1.7em;
   height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -18,25 +20,31 @@ a {
 
 .content {
   max-width: 40em;
-  padding-top: 4%;
-  padding-bottom: 6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .center-content {
-  font-size: 2.5em;
-  line-height: 1.5em;
   display: table;
   margin: 0 auto;
-  width: 20em;
+  max-width: 50em;
   height: 100%;
 }
 
 .center-body {
+  font-size: 2.5em;
+  line-height: 1.5em;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+@media (max-width: 30em) {
+  .center-body {
+    font-size: 1.8em;
+  }
 }
 
 .title {
@@ -57,6 +65,10 @@ a {
   text-align: right;
 }
 
+img {
+  width: 100%; 
+}
+
 /* index */
 
 #index .body a {
@@ -75,7 +87,7 @@ a {
 /* satz */
 
 #satz .content {
-  width: 200px;
+  max-width: 10em;
 }
 
 #satz .body {

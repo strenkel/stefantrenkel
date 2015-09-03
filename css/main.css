@@ -41,9 +41,19 @@ a {
   text-align: center;
 }
 
+.center-body.image {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
 @media (max-width: 30em) {
   .center-body {
     font-size: 1.8em;
+  }
+  
+  .center-body.image {
+    font-size: 1em;
+    line-height: 2em;
   }
 }
 

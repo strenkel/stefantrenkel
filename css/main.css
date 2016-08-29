@@ -50,7 +50,7 @@ a {
   .center-body {
     font-size: 1.8em;
   }
-  
+
   .center-body.image {
     font-size: 1em;
     line-height: 2em;
@@ -76,7 +76,7 @@ a {
 }
 
 img {
-  width: 100%; 
+  width: 100%;
 }
 
 /* index */
@@ -118,6 +118,17 @@ img {
 
 .abstract, .quote {
   font-size: 0.85em;
+}
+
+.small-right.quote-paragraph {
+  font-size: 0.75em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.quote-paragraph div {
+  max-width: 30em;
+  display: inline-block;
 }
 
 /* die-entdeckung-des-anderen */

@@ -106,14 +106,9 @@ img {
 
 /* insignien */
 
-#insignien-der-nacht .center-body > div {
-  display: none;
-  cursor: pointer;
-}
-
-#insignien-der-nacht {
-  background-color: black;
-  color: white;
+#insignien-der-nacht .body > p {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .abstract, .quote {

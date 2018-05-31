@@ -85,6 +85,10 @@ img {
   text-decoration: none;
 }
 
+#index .body a:hover {
+  text-decoration: underline;
+}
+
 #index .body div {
  line-height: 1.3em;
 }

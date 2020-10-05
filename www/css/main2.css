@@ -50,8 +50,8 @@ header a:hover {
 }
 
 main {
-  max-width: 44em;
-  padding: 6em 2em 6em 2em;
+  max-width: 42em;
+  padding: 6em 1.5em 6em 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,6 +102,44 @@ main .img-title {
 
 #alles-wird div:nth-child(3) {
   background-color: #7F7F7F;
+}
+
+/* das-gesetz */
+
+#das-gesetz {
+  background-color: #222222;
+  height: 460px;
+  position: relative;
+}
+
+#das-gesetz div {
+  position: absolute;
+  line-height: 460px;
+  width: 100%;
+  text-align: center;
+}
+
+#gesetz {
+  font-size: 5em;
+}
+
+#gerecht {
+  color: white;
+}
+
+@media (max-width: 40em) {
+  #gesetz {
+    font-size: 2em;
+  }
+  #gerecht {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 20em) {
+  main {
+    padding: 6em 1em 6em 1em;
+  }
 }
 
 

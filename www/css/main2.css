@@ -50,8 +50,8 @@ header a:hover {
 }
 
 main {
-  max-width: 40em;
-  padding: 6em 1.5em 6em 1.5em;
+  max-width: 42em;
+  padding: 6em 3em 6em 3em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -127,7 +127,20 @@ main .img-title {
   color: white;
 }
 
+/*  Satz! */
+
+#satz {
+  max-width: 12em;
+}
+
 @media (max-width: 40em) {
+
+  #das-gesetz {
+    height: 300px;
+  }
+  #das-gesetz div {
+    line-height: 300px;
+  }
   #gesetz {
     font-size: 2em;
   }
@@ -136,9 +149,9 @@ main .img-title {
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 30em) {
   main {
-    padding: 6em 1em 6em 1em;
+    padding: 6em 1.3em 6em 1.3em;
   }
 }
 

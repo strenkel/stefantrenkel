@@ -8,9 +8,9 @@ b.style.margin = 0;
 // line-div
 l = d.createElement('div');
 s = l.style;
-s.bottom = '90px';
-s.width = '60%';
-s.marginLeft = '20%';
+s.bottom = '30%';
+s.width = '50%';
+s.marginLeft = '25%';
 s.borderBottom = '1px solid #000';
 s.position = 'absolute';
 b.appendChild(l);
@@ -21,15 +21,27 @@ s = p.style;
 s.fontSize = '120px';
 s.textAlign = 'center';
 s.position = 'relative';
+s.fontFamily = "serif";
 p.appendChild( d.createTextNode('.') );
 l.appendChild(p);
+
+// Text
+t = d.createElement('div');
+t.textContent = "Der springende Punkt!";
+t.style.position = 'absolute';
+t.style.width = '100%';
+t.style.textAlign = 'center';
+t.style.height = '80px';
+t.style.lineHeight = '80px';
+t.style.fontFamily = "sans-serif";
+l.appendChild(t);
 
 g = 0.25;
 t = 0;
 v();
 
 // movePoint
-function m(){
+function m() {
 	t++;
 	if (t >= 2 * V / g) {
 		t = 0;
@@ -38,12 +50,12 @@ function m(){
 }
 
 // setV0
-function v(){
-	V = Math.floor( Math.sqrt( 2 * g * (w() - 200)) );
+function v() {
+	V = Math.floor( Math.sqrt( 2 * g * (w() * 0.4)) );
 }
 
 // Höhe des Fenster berechnen
-function w(){
+function w() {
 	if (window.innerHeight) {
 		return window.innerHeight;
 	} else {

@@ -66,7 +66,7 @@ main {
 
 main aside {
   text-align: right;
-  padding-left: 20%;
+  padding-left: 15%;
   margin-bottom: 3em;
 }
 
@@ -164,7 +164,7 @@ main .img-title {
 
 @media (max-width: 30em) {
   main {
-    padding: 6em 1.3em 6em 1.3em;
+    padding: 6em 1.25em;
   }
 }
 
